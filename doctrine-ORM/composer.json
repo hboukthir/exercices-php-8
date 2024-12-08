@@ -1,0 +1,18 @@
+{
+    "name": "hafedh/doctrine-orm",
+    "description": "Doctrine ORM",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Hafedh\\DoctrineOrm\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hafedh"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^3.3"
+    }
+}

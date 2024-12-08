@@ -1,0 +1,16 @@
+{
+    "name": "hafedh/public",
+    "description": "MVC project with PHP 8",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hafedh"
+        }
+    ],
+    "require": {}
+}

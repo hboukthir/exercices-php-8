@@ -1,0 +1,12 @@
+{# article.twig #}
+{% if articles is iterable %}
+    <h1>Articles</h1>
+    <ul>
+        {% for article in articles %}
+            <li>{{ article.title }} - {{ article.content }}</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <h1>{{ article.title }}</h1>
+    <p>{{ article.content }}</p>
+{% endif %}

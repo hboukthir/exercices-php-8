@@ -1,0 +1,16 @@
+{
+    "name": "hafedh/architecture_mvc-php8",
+    "description": "architecture mvc php 8",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hafedh"
+        }
+    ],
+    "require": {}
+}

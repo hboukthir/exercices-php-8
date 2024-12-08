@@ -1,0 +1,16 @@
+{
+    "name": "vendor/usermanagement",
+    "description": "user management",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hafedh"
+        }
+    ],
+    "require": {}
+}

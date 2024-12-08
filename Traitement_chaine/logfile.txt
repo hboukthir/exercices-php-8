@@ -1,0 +1,5 @@
+Info: Début de l'exécution du script.
+Erreur: Connexion à la base de données échouée.
+Info: Tentative de reconnexion.
+Erreur: Reconnexion échouée après 3 essais.
+Info: Fin de l'exécution.

@@ -1,0 +1,17 @@
+{
+    "name": "hafedh/product-management",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "src\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hafedh"
+        }
+    ],
+    "require-dev": {
+        "doctrine/orm": "^3.3"
+    }
+}
