@@ -5,12 +5,14 @@ use App\Core\Controller;  // Ajouter cette ligne pour importer la classe Control
 use App\Models\User;
 
 class UserController extends Controller {
-    public function index() {
+    public function index(): void
+    {
         $users = User::all();
         $this->render('user/index', ['users' => $users]);
     }
 
-    public function create() {
+    public function create(): void
+    {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             User::create($_POST);
             header('Location: /user');
@@ -19,7 +21,8 @@ class UserController extends Controller {
         $this->render('user/create');
     }
 
-    public function edit($id) {
+    public function edit($id): void
+    {
         $user = User::find($id);
         if (!$user) {
             http_response_code(404);
